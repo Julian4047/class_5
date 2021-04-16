@@ -1,0 +1,14 @@
+.container {
+    max-width: 1200px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+}
+
+.item {
+    flex: 1;
+    border: 1px solid black;
+    background-color: #21d4fd;
+    background-image: linear-gradient(90deg, #21d4fd 0%, #b721ff 100%);
+}

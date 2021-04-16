@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root {
+    --maincolor: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+    margin: 0 !important;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 52%, rgba(252, 176, 69, 1) 100%);
+}
+
+.navbar {
+    margin-top: 0;
+    list-style: none;
+    background-color: rgb(0, 174, 255);
+    background-image: linear-gradient(90deg, #21d4fd 0%, #b721ff 100%);
+    padding: 0%;
+    overflow: auto;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: var(--maincolor);
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.navbar li a:hover {
+    font-size: 24px;
+}
+
+.menulist {
+    margin: 10px;
+    list-style: none;
+    border: 1px solid rgb(255, 255, 255);
+    width: 200px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.menulist li {
+    font-size: 18px;
+    line-height: 2.4rem;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.menulist li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.menulist li a:hover {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
